@@ -62,7 +62,7 @@ messages = [{ "content": "Hello, how are you?","role": "user"}]
 response = completion(model="gpt-3.5-turbo", messages=messages)
 ```
 
-Your `completion()` call print with a link to your session dashboard (https://admin.litellm.ai/<your_unique_token>)
+Your `completion()` call print with a link to your session dashboard (`https://admin.litellm.ai/<your_unique_token>`)
 
 In the above case it would be: [`admin.litellm.ai/e24c4c06-d027-4c30-9e78-18bc3a50aebb`](https://admin.litellm.ai/e24c4c06-d027-4c30-9e78-18bc3a50aebb)
 
